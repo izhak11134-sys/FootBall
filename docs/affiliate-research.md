@@ -14,3 +14,7 @@ No programme terms, acceptance criteria, commission rates, cookie windows, appro
 For each eventual programme, verify official application access, UK and per-country delivery, customs / tax treatment, return policy, allowed promotion channels, attribution and commission terms, deep-link support, image usage and catalogue-feed permissions. A network account alone does not establish approval by a merchant.
 
 Current site data contains six original illustrative concepts and zero actual retailer offers. Do not activate a concept as if it were a real product. Replace it with an actual authorised item and a properly approved seller / affiliate link first.
+
+## Follow-up preparation
+
+A configuration draft now includes the four exact attempted destination hostnames, preserving package-manager presets. This save does not apply runtime networking or publish the environment; programme terms remain unverified. See [the application kit](affiliate-application-kit.md) and [comparison worksheet](affiliate-comparison.csv).

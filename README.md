@@ -64,3 +64,7 @@ The test runner uses Chromium at `/usr/bin/chromium`, overrideable with `CHROMIU
 5. Complete independent accessibility and deployed performance checks, canonical URLs, a sitemap and real host-level 404 responses. Remove the deliberate prototype `noindex` / robots disallow only when ready for public indexing.
 
 GitHub stores the code and downloads. Uploading to GitHub does not itself publish a live storefront. No accounts, payments, tracking service, seller application or hosting deployment were created by this change.
+
+## Affiliate application preparation
+
+The [application kit](docs/affiliate-application-kit.md) contains an honest pre-launch introduction in English, the actual missing publisher/site details, and retailer verification questions. The [comparison worksheet](docs/affiliate-comparison.csv) leaves unverified commercial terms blank. These are internal preparation materials, not website articles or submitted applications.
