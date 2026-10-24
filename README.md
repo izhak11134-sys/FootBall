@@ -32,7 +32,7 @@ npm test
 npm audit --cache /tmp/foot-ball-npm-cache
 ```
 
-Tests use installed Chromium at `/usr/bin/chromium`; set `CHROMIUM_PATH` to another executable if needed. The four-test suite checks all 15 public pages, internal links and images, mobile overflow and navigation, rich-text editing, draft persistence, preview and export. It also exercises every page and embedded illustration in the standalone HTML without network access. The test runner starts and stops its own production preview server.
+Tests use installed Chromium at `/usr/bin/chromium`; set `CHROMIUM_PATH` to another executable if needed. The five-test suite checks all 15 public pages, internal links and images, mobile/tablet overflow and navigation (320, 390 and 768 pixels), rich-text editing, draft persistence, preview and export. It also exercises every page and embedded illustration in the standalone HTML without network access. The test runner starts and stops its own production preview server.
 
 `scripts/generate-pages.js` pre-renders HTML from `src/site.js` and `src/content.js`. Generated HTML is ignored by Git. `npm run dev` and `npm run build` regenerate it automatically. The public reader does not load GrapesJS; its larger editor bundle is exclusive to `/editor.html`.
 
@@ -42,7 +42,7 @@ For hosting, serve the built `dist` directory with **clean URLs** so `/train` re
 
 This is a working prototype, not a published business or production CMS. No Sites tool was available in this chat. No hosting service, domain, CMS project or email account was created.
 
-1. Confirm the provisional brand name, domain availability and trademark suitability.
+1. Check domain availability and trademark suitability for the chosen name, Form & Roar.
 2. Choose Webflow or another managed visual publishing system, then implement/import the approved design. This project does not automatically import into Webflow.
 3. Set a real publisher identity and monitored contact address. Contact currently explains that these are pending; it does not pretend to submit a form.
 4. Review the five original concept essays. Replace editorial placeholders with accountable writer profiles and real publication/revision dates where appropriate. Reading times are estimates.
@@ -55,3 +55,7 @@ The artwork is intentionally illustrative. It does not depict an actual venue, e
 ## Standalone HTML download
 
 Run `npm run export:html` to generate the complete reader as `downloads/form-and-roar-football.html` (also saved to `downloads/form-and-roar.html`). All 15 pages, illustrations and styles are embedded; hash links allow navigation without a server or internet connection. The visual studio remains a separate development tool. The earlier design is preserved in `downloads/form-and-roar-v1.html`.
+
+## Reading and motion
+
+Core descriptions now use 17px type, primary actions and desktop navigation use 16px, and article text uses 19–20px. The home page includes category cards, a slow text ribbon, a floating hero card and hover/focus shine effects. Use the native **Pause motion** checkbox to stop animations; system reduced-motion preferences disable them automatically. All effects are local CSS and included in the standalone HTML.

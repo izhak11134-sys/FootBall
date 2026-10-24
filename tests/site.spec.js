@@ -18,12 +18,15 @@ test('every editorial page renders, assets load and internal links resolve',asyn
 });
 
 test('mobile layout fits and navigation works by keyboard',async({page})=>{
-  await page.setViewportSize({width:390,height:844});
-  for(const path of Object.keys(routes)){
-    await page.goto(path);
-    expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),path).toBe(true);
-    expect(await page.locator('h1,h2,h3').evaluateAll(headings=>headings.every(h=>h.scrollWidth<=h.clientWidth+1)),`Unclipped headings on ${path}`).toBe(true);
+  for(const width of [320,390,768]){
+    await page.setViewportSize({width,height:844});
+    for(const path of Object.keys(routes)){
+      await page.goto(path);
+      expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1),path).toBe(true);
+      expect(await page.locator('h1,h2,h3').evaluateAll(headings=>headings.every(h=>h.scrollWidth<=h.clientWidth+1)),`Unclipped headings on ${path}`).toBe(true);
+    }
   }
+  await page.setViewportSize({width:390,height:844});
   await page.goto('/');
   const menu=page.getByRole('button',{name:'Menu'});
   await menu.click();await expect(menu).toHaveAttribute('aria-expanded','true');
