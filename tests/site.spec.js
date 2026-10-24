@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 import { routes } from '../src/content.js';
 
-test('every editorial page renders, assets load and internal links resolve',async({page,request})=>{
+test('every catalogue and information page renders, assets load and internal links resolve',async({page,request})=>{
   const errors=[];page.on('pageerror',e=>errors.push(e.message));
   const links=new Set();
   for(const path of Object.keys(routes)){
@@ -49,11 +49,12 @@ test('visual editor saves browser drafts, previews changes and exports a self-co
   await expect(page.getByRole('status')).toHaveText('Draft saved in this browser');
   await page.reload();await expect(page.frameLocator('.gjs-frame').locator('h1')).toHaveText('Movement with meaning.');
   const previewPromise=page.waitForEvent('popup');await page.getByRole('link',{name:'Preview'}).click();
-  const preview=await previewPromise;await expect(preview.locator('h1')).toHaveText('Movement with meaning.');await preview.close();
+  const preview=await previewPromise;await expect(preview.locator('h1')).toHaveText('Movement with meaning.');await expect(preview.locator('.catalog-grid .product-card')).toHaveCount(6);await preview.close();
   const downloadPromise=page.waitForEvent('download');await page.getByRole('button',{name:'Export HTML'}).click();
   const download=await downloadPromise;expect(download.suggestedFilename()).toBe('form-and-roar-home.html');
   const stream=await download.createReadStream();let content='';for await(const chunk of stream)content+=chunk.toString();
   expect(content).toContain('Movement with meaning.');expect(content).toContain('data:image/svg+xml;base64,');expect(content).toContain('<style>');
+  const offline=await page.context().newPage();await offline.route('**/*',route=>route.abort());await offline.setContent(content);await expect(offline.locator('.catalog-grid .product-card')).toHaveCount(6);await offline.getByLabel('Category',{exact:true}).selectOption('retro');await offline.locator('img').evaluateAll(images=>images.forEach(i=>i.loading='eager'));await expect.poll(()=>offline.locator('img').evaluateAll(images=>images.every(i=>i.complete&&i.naturalWidth>0))).toBe(true);await offline.close();
   await page.goto('/');await expect(page.locator('h1')).toContainText('More than');
   expect(errors).toEqual([]);
 });

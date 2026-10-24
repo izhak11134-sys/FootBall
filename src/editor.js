@@ -3,6 +3,8 @@ import 'grapesjs/dist/css/grapes.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import './editor.css';
 import siteCss from './styles.css?inline';
+import { initSite } from './interactions.js';
+import { renderProductCards, normaliseProducts } from './catalog.js';
 import { routes, normalisePath } from './content.js';
 import { pageMarkup } from './site.js';
 
@@ -68,15 +70,20 @@ document.querySelector('#export-page').addEventListener('click',async()=>{
   try{
     await finishTextEdit();
     const template=document.createElement('template');template.innerHTML=editor.getHtml();
-    await Promise.all([...template.content.querySelectorAll('img')].map(async image=>{
-      const url=new URL(image.getAttribute('src'),location.origin);
-      if(url.origin!==location.origin)return;
+    const assetMap={};
+    const sources=new Set([...template.content.querySelectorAll('img')].map(image=>image.getAttribute('src')));
+    const dataElement=template.content.querySelector('#catalog-data');
+    if(dataElement)for(const product of JSON.parse(dataElement.textContent).products)sources.add(product.image);
+    await Promise.all([...sources].map(async source=>{
+      const url=new URL(source,location.origin);if(url.origin!==location.origin)return;
       const response=await fetch(url);if(!response.ok)throw new Error('Image unavailable');
       const blob=await response.blob();
-      image.src=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result);reader.onerror=reject;reader.readAsDataURL(blob);});
+      assetMap[source]=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result);reader.onerror=reject;reader.readAsDataURL(blob);});
     }));
+    for(const image of template.content.querySelectorAll('img')){const data=assetMap[image.getAttribute('src')];if(data)image.src=data;}
     const css=`${siteCss}\n${editor.getCss()}`.replaceAll('</style','<\\/style');
-    const script=`document.querySelector('.menu-toggle')?.addEventListener('click',function(){this.setAttribute('aria-expanded',String(this.getAttribute('aria-expanded')!=='true'))});`;
+    const assets=JSON.stringify(assetMap).replaceAll('<','\\u003c');
+    const script=`const assets=${assets};const renderCards=items=>{let html=(${renderProductCards.toString()})(items);for(const [url,data]of Object.entries(assets))html=html.replaceAll('src="'+url+'"','src="'+data+'"');return html;};const siteActions=(${initSite.toString()})(renderCards,${normaliseProducts.toString()});siteActions.refresh();`;
     const html=`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${routes[path].title}</title><style>${css}</style></head><body>${template.innerHTML}<script>${script}</script></body></html>`;
     const url=URL.createObjectURL(new Blob([html],{type:'text/html'}));const link=document.createElement('a');link.href=url;link.download=`form-and-roar-${path==='/'?'home':path.split('/').filter(Boolean).join('-')}.html`;link.click();setTimeout(()=>URL.revokeObjectURL(url),1000);status.textContent='HTML exported · linked pages are separate';
   }catch{status.textContent='Export failed. Check that site images are available and try again.';}

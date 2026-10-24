@@ -10,7 +10,8 @@
     "preview": "vite preview --host 0.0.0.0",
     "test": "playwright test",
     "pretest": "npm run export:html",
-    "export:html": "node scripts/export-standalone.js"
+    "export:html": "node scripts/export-standalone.js",
+    "catalog:import": "node scripts/import-catalog.js"
   },
   "dependencies": {
     "font-awesome": "4.7.0",

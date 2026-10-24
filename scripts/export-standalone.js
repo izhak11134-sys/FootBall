@@ -2,6 +2,8 @@ import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { resolve } from 'node:path';
 import { routes } from '../src/content.js';
 import { pageMarkup } from '../src/site.js';
+import { initSite } from '../src/interactions.js';
+import { renderProductCards, normaliseProducts } from '../src/catalog.js';
 
 const root = resolve(import.meta.dirname, '..');
 const output = resolve(root, 'downloads/form-and-roar.html');
@@ -19,7 +21,7 @@ function inlineMarkup(path) {
   return html.replace(/href="(\/[^"]*)"/g, (_, path) => `href="#${path}"`);
 }
 const pages = Object.fromEntries(Object.entries(routes).map(([path, meta]) => [path, { ...meta, html: inlineMarkup(path) }]));
-pages['/404'] = { title: 'Page not found — Form & Roar', description: 'Find your next story.', html: inlineMarkup('/404') };
+pages['/404'] = { title: 'Page not found — Form & Roar', description: 'Find your next football favourite.', html: inlineMarkup('/404') };
 const payload = JSON.stringify(pages).replaceAll('<', '\\u003c');
 const script = `
 const pages = JSON.parse(document.getElementById('site-pages').textContent);
@@ -29,6 +31,7 @@ function render(first) {
   const path = location.hash.slice(1).replace(/\\/$/, '') || '/';
   const page = pages[path] || pages['/404'];
   app.innerHTML = page.html;
+  siteActions.refresh();
   document.title = page.title;
   document.querySelector('meta[name="description"]').content = page.description;
   if (!first) {
@@ -38,16 +41,13 @@ function render(first) {
     heading?.focus({preventScroll:true});
   }
 }
-document.addEventListener('click', event => {
-  const toggle = event.target.closest('.menu-toggle');
-  if (toggle) toggle.setAttribute('aria-expanded', String(toggle.getAttribute('aria-expanded') !== 'true'));
-});
-document.addEventListener('keydown', event => {
-  const toggle = document.querySelector('.menu-toggle');
-  if (event.key === 'Escape' && toggle?.getAttribute('aria-expanded') === 'true') {
-    toggle.setAttribute('aria-expanded', 'false'); toggle.focus();
-  }
-});
+const offlineAssets = ${JSON.stringify(Object.fromEntries(assets))};
+const offlineRenderer = items => {
+  let markup = (${renderProductCards.toString()})(items);
+  for (const [url, data] of Object.entries(offlineAssets)) markup = markup.replaceAll('src="'+url+'"', 'src="'+data+'"');
+  return markup;
+};
+const siteActions = (${initSite.toString()})(offlineRenderer, ${normaliseProducts.toString()});
 window.addEventListener('hashchange', () => render(false));
 render(true);
 `;
@@ -56,10 +56,10 @@ const html = `<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="An independent football journal on shirts, supporter culture, collecting and life beyond the pitch.">
+<meta name="description" content="A football product discovery concept for the UK and Europe.">
 <meta name="robots" content="noindex,nofollow">
 <meta name="theme-color" content="#1f342b">
-<title>Form &amp; Roar — Football, worn with feeling.</title>
+<title>Form &amp; Roar — Football finds. Chosen with feeling.</title>
 <link rel="icon" href="${favicon}">
 <style>${css.replaceAll('</style', '<\\/style')}</style>
 </head>
