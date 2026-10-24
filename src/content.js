@@ -1,0 +1,81 @@
+export const stories = [
+  {
+    slug:'the-shirt-beyond-the-score',category:'Shirts & Style',tag:'The shirt edit',title:'The shirt beyond the score.',
+    description:'More than colours and a crest. Why the shirts we keep become part of who we are.',
+    image:'/images/shirt.svg',alt:'Original illustration of a cream football shirt with green and rust stripes',read:'3 min read',
+    paragraphs:[
+      'A favourite football shirt rarely starts with a perfect specification. It might be the one you wore to your first match, the one handed down by a sibling, or the one you bought because its colours simply felt right. Eventually, the shirt and the memory become difficult to separate.',
+      'That is what makes football clothing different from an ordinary wardrobe choice. A collar can bring back a particular season. A faded number can remind you of a player you tried to imitate. The object carries a private history alongside the public story of the club.',
+      'There is no single correct way to enjoy that connection. Some shirts are worn every week. Others are kept carefully, taken out for a match or a conversation. Neither approach makes someone a better supporter or collector.',
+      'When adding a shirt to your collection, begin with your reason for wanting it. The original season, the design, the fit and a personal connection are different considerations. A higher price or a claim of rarity does not automatically make something more meaningful.',
+      'If authenticity matters to the purchase, ask for clear photographs and details of the specific item. Look at the seller’s description, provenance and return terms. Labels and construction can provide clues, but a single feature is not universal proof across manufacturers and eras.',
+      'The shirt is not the whole story of supporting a team. But it is one of the few pieces of that story you can take home, put on and carry into an ordinary day.',
+    ],
+  },
+  {
+    slug:'the-retro-question',category:'Shirts & Style',tag:'The considered collector',title:'Old shirt. New questions.',
+    description:'Original, official reissue or retro-inspired? Start by understanding what you are actually looking at.',
+    image:'/images/archive.svg',alt:'Original illustration of folded football shirts and an archive card',read:'3 min read',
+    paragraphs:[
+      'The word retro can describe several different things. A shirt manufactured in a past season, a later official reissue and a new design inspired by older football clothing may all appear in the same search. They are not interchangeable descriptions.',
+      'An original period shirt was made at the time of the design’s first release. An official reissue is a later release authorised by the relevant rights holders. A retro-inspired design borrows a mood or silhouette; its status depends on the specific product and any claims being made about it.',
+      'Before comparing prices, read the listing closely. What does the seller say about the date, manufacturer, licensing and condition? Is the photograph of the exact item? If the answer is unclear, ask rather than fill in the gaps yourself.',
+      'Condition is part of the decision. Small pulls, cracking prints and faded fabric can affect both how a shirt looks and how you can use it. A garment chosen for regular wear may need a different assessment from one bought for careful display.',
+      'There is no need to pretend that every purchase is an investment. You might prefer the accessibility of a clearly labelled reissue or the personal interest of a period piece. The important thing is that the description supports your choice.',
+      'This is a general editorial guide, not an authentication service. For a valuable purchase, seek an appropriately qualified specialist and understand the seller’s return terms before committing.',
+    ],
+  },
+  {
+    slug:'beyond-the-match-day',category:'Shirts & Style',tag:'Off the pitch',title:'A shirt for the everyday.',
+    description:'A football shirt, a quieter wardrobe and a little room to make it your own.',
+    image:'/images/style.svg',alt:'Original wardrobe illustration of a football shirt, dark trousers and a scarf',read:'3 min read',
+    paragraphs:[
+      'A football shirt can be the most expressive thing in an otherwise simple outfit. Strong colours, generous graphics and an unfamiliar collar already give you something to work with. You do not need to match every element around it.',
+      'One approach is to let the shirt lead. Plain trousers or denim give a busy pattern some space. A neutral outer layer changes how much of the design is visible. These are options, not rules: the point is to notice what feels comfortable on you.',
+      'Fit is more useful than the size on a label. Shirts from different eras and manufacturers can sit very differently at the shoulders and sleeves. Look at measurements where they are available and compare them with a garment you already enjoy wearing.',
+      'Think about the day as well as the photograph. Layers, weather, walking and where you are going all matter. A match-day outfit has to work for the journey and the hours around the game, not just the moment you arrive.',
+      'Be thoughtful about context. Team colours and symbols can carry local associations that go beyond fashion. When travelling, understanding the setting is part of enjoying the culture respectfully.',
+      'The best result feels lived in. A shirt you care about, clothes you can move in and an outfit that still feels like you after the final whistle.',
+    ],
+  },
+  {
+    slug:'ritual-before-the-roar',category:'Football Culture',tag:'Match-day rituals',title:'The ritual before the roar.',
+    description:'The familiar scarf. The walk to the ground. The hours that turn a fixture into a feeling.',
+    image:'/images/stadium.svg',alt:'Original illustration of a football stadium under floodlights',read:'3 min read',
+    paragraphs:[
+      'A match rarely begins at kick-off. It begins with a message to a friend, the shirt taken from a drawer and the same route through town. The build-up turns a fixture into something personal.',
+      'For some supporters it is a particular meeting place. For others it is a radio programme, a meal or a conversation with someone who cannot make the game. These habits are individual, even when thousands of people are moving towards the same ground.',
+      'The objects become part of the routine. A scarf is useful against the cold, but it can also be a reminder of the person who gave it to you. A programme can hold a ticket or a note long after its team sheet has stopped being news.',
+      'You do not need an elaborate ritual to belong. A first visit, an occasional away trip and watching from far away are different ways of following the game. The experience is not measured only by the number of matches attended.',
+      'For a new ground, make practical room for the experience: check the venue’s current entry rules, plan the journey and leave enough time to arrive without rushing. Respect the local setting and the people sharing it.',
+      'The result will eventually become a line in the record. The walk, the conversation and the way the day felt may stay with you much longer.',
+    ],
+  },
+  {
+    slug:'less-kit-more-intention',category:'Train',tag:'The Sunday game',title:'Ready for the Sunday game.',
+    description:'A simpler kit bag for the football you actually play. The small practical side of a bigger love.',
+    image:'/images/football.svg',alt:'Original illustration of a football on a green pitch',read:'3 min read',
+    paragraphs:[
+      'The everyday side of football is often a message in a group chat and a bag packed before leaving the house. A useful kit bag starts with the game you actually play, the surface and the facilities available.',
+      'Check the venue’s footwear rules rather than assuming one pair suits every pitch. Look at the condition of your footwear and protective equipment, and follow the manufacturer’s guidance. If you are unsure what is suitable, ask the venue or an appropriately qualified professional.',
+      'Clothing should let you move comfortably. Think about the weather, a dry layer for afterwards and somewhere to separate damp kit from the rest of the bag. A bottle you can clean easily is more practical than one you avoid using.',
+      'There is no requirement to track every session. If you use a wearable, consider what information you want from it, whether the device is suitable for the activity and what the organiser permits. A casual game does not need to become a dashboard.',
+      'Afterwards, follow care instructions and let equipment dry. Check what needs cleaning or replacing before the next session. A little attention now makes it easier to turn up again.',
+      'This is a general preparation perspective, not individual training, medical or injury-prevention advice. The point is to make space for the game, not to sell you a more complicated routine.',
+    ],
+  },
+];
+export const routes = {
+  '/':{title:'Form & Roar — Football, worn with feeling.',description:'An independent football journal on shirts, supporter culture, collecting and life beyond the pitch.'},
+  '/shirts-style':{title:'Shirts & Style — Form & Roar',description:'Football shirts, considered collecting and the everyday style around the game.'},
+  '/football-culture':{title:'Football Culture — Form & Roar',description:'Match-day rituals, supporter stories and the objects that connect us to football.'},
+  '/journal':{title:'Journal — Form & Roar',description:'Original perspectives on football shirts, style and supporter culture.'},
+  '/train':{title:'Train — Form & Roar',description:'A small practical corner for the football you play: kit, preparation and the Sunday game.'},
+  '/about':{title:'Our perspective — Form & Roar',description:'A football-first publication for people who love the game beyond the final whistle.'},
+  '/contact':{title:'Contact — Form & Roar',description:'Contact information and launch status.'},
+  '/editorial-standards':{title:'Editorial standards — Form & Roar',description:'Our approach to original writing, authenticity claims and commercial transparency.'},
+  '/privacy':{title:'Privacy — Form & Roar',description:'Privacy information for this prototype.'},
+  '/accessibility':{title:'Accessibility — Form & Roar',description:'Our accessibility approach and current limitations.'},
+  ...Object.fromEntries(stories.map(s=>[`/journal/${s.slug}`,{title:`${s.title} — Form & Roar`,description:s.description}])),
+};
+export const normalisePath=path=>path.replace(/\/index\.html$/,'').replace(/\.html$/,'').replace(/\/$/,'')||'/';

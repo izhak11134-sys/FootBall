@@ -1,0 +1,23 @@
+{
+  "name": "form-and-roar",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/generate-pages.js",
+    "dev": "vite --host 0.0.0.0",
+    "build": "node scripts/generate-pages.js && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "playwright test",
+    "pretest": "npm run export:html",
+    "export:html": "node scripts/export-standalone.js"
+  },
+  "dependencies": {
+    "font-awesome": "4.7.0",
+    "grapesjs": "0.22.16"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "vite": "7.3.7"
+  }
+}
