@@ -60,7 +60,7 @@ The test runner uses Chromium at `/usr/bin/chromium`, overrideable with `CHROMIU
 1. Verify and obtain acceptance into actual affiliate programmes. See [the research status](docs/affiliate-research.md): access was blocked, so no programme conditions are confirmed.
 2. Add genuine products and authorised images, seller links and reliable delivery information. Never turn an illustration into a purported real offer.
 3. Choose and connect an authenticated CMS / publishing service for cross-device management. The browser workspace is a functional prototype, not that service.
-4. Configure a real publisher, monitored contact address, hosting and domain. Review privacy / affiliate disclosures for the actual operation and any tracking or consent requirements.
+4. Configure a real publisher, hosting and domain. The public contact address supplied by the owner is `formandroar.contact@gmail.com`; mailbox ownership and delivery have not been independently verified. Review privacy / affiliate disclosures for the actual operation and any tracking or consent requirements.
 5. Complete independent accessibility and deployed performance checks, canonical URLs, a sitemap and real host-level 404 responses. Remove the deliberate prototype `noindex` / robots disallow only when ready for public indexing.
 
 GitHub stores the code and downloads. Uploading to GitHub does not itself publish a live storefront. No accounts, payments, tracking service, seller application or hosting deployment were created by this change.
