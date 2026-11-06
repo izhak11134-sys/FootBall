@@ -1,6 +1,7 @@
 import './styles.css';
 import { initSite } from './interactions.js';
 import { connectPublishedCatalog } from './remote-catalog.js';
+import { connectOwnerShortcut } from './owner-shortcut.js';
 import { renderProductCards, normaliseProducts } from './catalog.js';
 const path=location.pathname.replace(/\/index\.html$/,'').replace(/\.html$/,'').replace(/\/$/,'')||'/';
 let draft;try{draft=JSON.parse(localStorage.getItem(`fr-draft:${path}`));}catch{}
@@ -10,3 +11,5 @@ if(preview&&draft?.css){const style=document.createElement('style');style.textCo
 const siteActions=initSite(renderProductCards,normaliseProducts);
 siteActions.refresh();
 connectPublishedCatalog(siteActions);
+
+connectOwnerShortcut();

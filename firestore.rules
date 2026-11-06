@@ -3,9 +3,7 @@ service cloud.firestore {
   match /databases/{database}/documents {
     function signedIn() { return request.auth != null; }
     function owner() {
-      return signedIn() && (request.auth.uid == 'qIjs6PlvVATYYAbcprHopz5OYZG3'
-        || (exists(/databases/$(database)/documents/catalogAdmins/$(request.auth.uid))
-          && get(/databases/$(database)/documents/catalogAdmins/$(request.auth.uid)).data.enabled == true));
+      return signedIn() && request.auth.uid == 'qIjs6PlvVATYYAbcprHopz5OYZG3';
     }
     function validProduct(p, id) {
       return p is map
@@ -40,8 +38,7 @@ service cloud.firestore {
         && d.updatedAt == request.time && d.updatedBy == request.auth.uid;
     }
     match /catalogAdmins/{uid} {
-      allow get: if signedIn() && request.auth.uid == uid;
-      allow list, create, update, delete: if false;
+      allow read, write: if false;
     }
     match /catalogProducts/{id} {
       allow read: if owner() || resource.data.published == true;

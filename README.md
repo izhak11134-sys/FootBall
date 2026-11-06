@@ -26,7 +26,7 @@ Use the existing checkout in cloud tasks; do not create a Git worktree unless ex
 
 ## Connected management
 
-The owner area uses Firebase Authentication email/password sign-in and Firestore. Accounts must be created in Firebase Console; there is no public sign-up UI. The primary owner UID supplied by the user is pinned in `firestore.rules` and `src/owner-config.json`; deploying those rules grants that authenticated account access. Additional managers require a trusted project owner to create `catalogAdmins/{AUTH_UID}` with `enabled: true` in the Console. Only a verified Firebase sign-in token grants access; knowing a UID or Web API key is insufficient.
+The owner area uses Firebase Authentication email/password sign-in and Firestore. Accounts must be created in Firebase Console; there is no public sign-up UI. The primary owner UID supplied by the user is pinned in `firestore.rules` and `src/owner-config.json`; deploying those rules grants that authenticated account access. The current policy deliberately allows only that one owner account. Legacy `catalogAdmins` records cannot grant another account access. Only a verified Firebase sign-in token grants access; knowing a UID or Web API key is insufficient.
 
 Owners can save private drafts, publish or unpublish configured seller items, delete items, set display positions, export a product-data backup, sign out and change their website password. Concurrent item changes are checked using Firestore transactions and revisions. Clients cannot create or edit admin membership through the website.
 
@@ -84,3 +84,5 @@ That command does not publish to Firestore. A cloud JSON backup contains product
 4. Replace design previews with genuine permitted seller listings before commercial launch; complete publisher/legal details as appropriate.
 
 Marketing and affiliate-programme research remain separate from this website work. Preparation materials are retained under `docs/affiliate-*`.
+
+The public footer has no sign-in link. Owner access starts directly at `/admin`. After Firebase authenticates the configured owner, a **Manage website** shortcut appears on that browser’s public pages; anonymous visitors and other accounts do not receive it. This is a visibility convenience, not a substitute for server-enforced rules. The login page URL itself can be opened by anyone, while catalogue management requires the configured owner account.
