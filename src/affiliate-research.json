@@ -1,7 +1,7 @@
 {
   "checkedOn": "2026-11-06",
-  "status": "blocked",
-  "note": "Research access is blocked by the environment HTTPS proxy. No programme, commission, attribution or Israeli publisher eligibility has been verified. Priority describes brand fit for research, not an earnings ranking.",
+  "status": "partial",
+  "note": "Official pages are accessible. Nike publishes an up-to rate and cookie window. Fanatics UK and Kitbag publish application routes through impact.com. Remaining commercial terms and Israeli publisher acceptance still need verification. No programme has approved this website.",
   "candidates": [
     {
       "name": "Classic Football Shirts",
@@ -9,12 +9,16 @@
       "fit": "Original and retro shirts",
       "url": "https://www.classicfootballshirts.co.uk/",
       "researchPriority": 1,
-      "access": "Proxy 403 on 2026-11-06",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
       "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "programmeStatus": "Unverified",
+      "networkOrChannel": null,
+      "sourceUrl": "https://www.classicfootballshirts.co.uk/",
+      "evidenceNote": "Homepage opened. No affiliate link in the inspected navigation; checked /affiliates, /affiliate-program and /affiliate-programme returned 404. Programme availability and terms remain unconfirmed.",
+      "deliveryNote": "Verify each destination and checkout costs before listing."
     },
     {
       "name": "Fanatics UK",
@@ -22,12 +26,16 @@
       "fit": "Licensed shirts, supporter clothing and gifts",
       "url": "https://www.fanatics.co.uk/",
       "researchPriority": 2,
-      "access": "Proxy 403 on 2026-11-06",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
-      "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "applicationUrl": "https://www.fanatics.co.uk/apply-now",
+      "programmeStatus": "Official application route verified; terms pending",
+      "networkOrChannel": "impact.com (official retailer redirect)",
+      "sourceUrl": "https://www.fanatics.co.uk/en/affiliates/x-8840",
+      "evidenceNote": "Official affiliate page links to /apply-now. That route returns HTTP 302 to an app.impact.com brand campaign. The destination is still blocked by the proxy. No UK commission, attribution window or Israeli eligibility verified.",
+      "deliveryNote": "Official shipping page describes UK and European shipping; estimates vary and checkout confirms costs, dates and import charges."
     },
     {
       "name": "TOFFS",
@@ -35,12 +43,16 @@
       "fit": "Heritage shirts and football style",
       "url": "https://www.toffs.com/",
       "researchPriority": 3,
-      "access": "Not opened",
+      "access": "HTTP Error 403: Forbidden",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
       "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "programmeStatus": "Unverified",
+      "networkOrChannel": null,
+      "sourceUrl": "https://www.toffs.com/",
+      "evidenceNote": "Both homepage and attempted /affiliates page returned website HTTP 403, distinct from a proxy CONNECT denial. No terms verified.",
+      "deliveryNote": "Verify each destination and checkout costs before listing."
     },
     {
       "name": "Kitbag",
@@ -48,12 +60,16 @@
       "fit": "Football merchandise; investigate programme overlap with Fanatics",
       "url": "https://www.kitbag.com/",
       "researchPriority": 4,
-      "access": "Proxy 403 on 2026-11-06",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
-      "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "applicationUrl": "https://www.kitbag.com/apply-now",
+      "programmeStatus": "Official application route verified; terms pending",
+      "networkOrChannel": "impact.com (official retailer redirect)",
+      "sourceUrl": "https://www.kitbag.com/en/affiliates/x-8840",
+      "evidenceNote": "Official affiliate page links to /apply-now. That route returns HTTP 302 to an app.impact.com brand campaign. The destination is still blocked by the proxy. No UK commission, attribution window or Israeli eligibility verified.",
+      "deliveryNote": "Shares Fanatics-branded affiliate page structure. Verify programme independence, region and terms rather than treating it as automatic extra coverage."
     },
     {
       "name": "Vintage Football Shirts",
@@ -61,12 +77,16 @@
       "fit": "Vintage shirt selection",
       "url": "https://www.vintagefootballshirts.com/",
       "researchPriority": 5,
-      "access": "Not opened",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
       "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "programmeStatus": "Unverified",
+      "networkOrChannel": null,
+      "sourceUrl": "https://www.vintagefootballshirts.com/",
+      "evidenceNote": "Homepage, page sitemap and delivery/returns page opened. A goaffpro loader exists, but its presence is not evidence of open enrollment or commission terms.",
+      "deliveryNote": "Official returns/delivery page: UK Tracked 48 £3.99; Europe tracked £9.99; 30-day returns subject to condition. Page says EU taxes/duties collected at checkout, including over €150. Recheck current terms."
     },
     {
       "name": "Subside Sports",
@@ -74,12 +94,16 @@
       "fit": "Football shirts and specialist selection",
       "url": "https://www.subsidesports.com/uk/",
       "researchPriority": 6,
-      "access": "Proxy 403 on 2026-11-06",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
       "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "programmeStatus": "Unverified",
+      "networkOrChannel": null,
+      "sourceUrl": "https://www.subsidesports.com/uk/",
+      "evidenceNote": "No public affiliate terms verified on the inspected pages. This does not establish that no programme exists.",
+      "deliveryNote": "Official shipping page lists UK and European regions. Import duty/taxes may be payable locally; shipping cost calculated at basket. Verify item/destination before listing."
     },
     {
       "name": "Unisport",
@@ -87,12 +111,16 @@
       "fit": "Football shirts and European market fit to investigate",
       "url": "https://www.unisportstore.com/",
       "researchPriority": 7,
-      "access": "Proxy 403 on 2026-11-06",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
       "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "programmeStatus": "Unverified",
+      "networkOrChannel": null,
+      "sourceUrl": "https://www.unisportstore.com/",
+      "evidenceNote": "Homepage and FAQ/page sitemaps opened. A teamsport partner page is not proof of an affiliate programme. No commission terms verified.",
+      "deliveryNote": "Verify each destination and checkout costs before listing."
     },
     {
       "name": "Pro:Direct Soccer",
@@ -100,12 +128,16 @@
       "fit": "Football shirts and clothing; equipment secondary",
       "url": "https://www.prodirectsport.com/soccer/",
       "researchPriority": 8,
-      "access": "Proxy 403 on 2026-11-06",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
       "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "programmeStatus": "Unverified",
+      "networkOrChannel": null,
+      "sourceUrl": "https://www.prodirectsport.com/soccer/",
+      "evidenceNote": "No public affiliate terms verified on the inspected pages. This does not establish that no programme exists.",
+      "deliveryNote": "Verify each destination and checkout costs before listing."
     },
     {
       "name": "adidas UK",
@@ -113,12 +145,16 @@
       "fit": "Football shirts and lifestyle clothing",
       "url": "https://www.adidas.co.uk/",
       "researchPriority": 9,
-      "access": "Not opened",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
       "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "programmeStatus": "Unverified",
+      "networkOrChannel": null,
+      "sourceUrl": "https://www.adidas.co.uk/",
+      "evidenceNote": "Homepage opened. Guessed programme/help URLs returned 404 or the homepage. Do not infer terms or an application route.",
+      "deliveryNote": "Verify each destination and checkout costs before listing."
     },
     {
       "name": "Nike",
@@ -126,12 +162,16 @@
       "fit": "Football shirts and lifestyle clothing",
       "url": "https://www.nike.com/",
       "researchPriority": 10,
-      "access": "Not opened",
-      "commission": null,
-      "attributionDays": null,
+      "access": "Homepage opened on 2026-11-06",
+      "commission": "Up to 11% on qualified sales; actual account/category rate unconfirmed",
+      "attributionDays": 30,
       "israeliPublisherEligibility": null,
-      "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "applicationUrl": "https://www.nike.com/gb/help/a/nike-affiliate-programme",
+      "programmeStatus": "Public terms verified; approval pending",
+      "networkOrChannel": "Official page directs applicants to global-nike@awin.com",
+      "sourceUrl": "https://www.nike.com/gb/help/a/nike-affiliate-programme",
+      "evidenceNote": "Official GB help article publishes an up-to rate, 30-day cookie, automated feed and links/banners after approval. It lists established websites and shopping directories; acceptance of this new Israeli publisher is unconfirmed.",
+      "deliveryNote": "Use Nike country-specific stores; UK product links are not proof of Europe-wide delivery."
     },
     {
       "name": "JD Sports UK",
@@ -139,12 +179,16 @@
       "fit": "Football-inspired lifestyle clothing",
       "url": "https://www.jdsports.co.uk/",
       "researchPriority": 11,
-      "access": "Not opened",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
       "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "programmeStatus": "Unverified",
+      "networkOrChannel": null,
+      "sourceUrl": "https://www.jdsports.co.uk/",
+      "evidenceNote": "No public affiliate terms verified on the inspected pages. This does not establish that no programme exists.",
+      "deliveryNote": "Verify each destination and checkout costs before listing."
     },
     {
       "name": "Sports Direct",
@@ -152,12 +196,16 @@
       "fit": "Mainstream football clothing and gifts",
       "url": "https://www.sportsdirect.com/",
       "researchPriority": 12,
-      "access": "Not opened",
+      "access": "Homepage opened on 2026-11-06",
       "commission": null,
       "attributionDays": null,
       "israeliPublisherEligibility": null,
       "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "programmeStatus": "Unverified",
+      "networkOrChannel": null,
+      "sourceUrl": "https://www.sportsdirect.com/",
+      "evidenceNote": "No public affiliate terms verified on the inspected pages. This does not establish that no programme exists.",
+      "deliveryNote": "Verify each destination and checkout costs before listing."
     },
     {
       "name": "Awin",
@@ -165,12 +213,16 @@
       "fit": "Check only against an officially confirmed merchant programme",
       "url": "https://www.awin.com/gb/publishers",
       "researchPriority": null,
-      "access": "Proxy 403 on 2026-11-06",
-      "commission": null,
+      "access": "Homepage opened on 2026-11-06",
+      "commission": "Set by each advertiser, not a network-wide rate",
       "attributionDays": null,
       "israeliPublisherEligibility": null,
-      "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "applicationUrl": "https://ui.awin.com/publisher-signup/en/awin/",
+      "programmeStatus": "Platform, not a retailer programme",
+      "networkOrChannel": "Publisher network",
+      "sourceUrl": "https://www.awin.com/gb/faqs",
+      "evidenceNote": "Current official FAQ says publisher signup is free without a deposit. It links to the official signup URL. UK BACS £20 threshold is not an Israeli payout quote; country-specific methods and eligibility require confirmation.",
+      "deliveryNote": "Verify each destination and checkout costs before listing."
     },
     {
       "name": "impact.com",
@@ -178,12 +230,16 @@
       "fit": "Check only against an officially confirmed merchant programme",
       "url": "https://impact.com/partners/affiliates/",
       "researchPriority": null,
-      "access": "Proxy 403 on 2026-11-06",
-      "commission": null,
+      "access": "Homepage opened on 2026-11-06",
+      "commission": "Set by each programme",
       "attributionDays": null,
       "israeliPublisherEligibility": null,
-      "applicationUrl": null,
-      "programmeStatus": "Unverified"
+      "applicationUrl": "https://app.impact.com/signup/none/create-new-mediapartner-account-flow.ihtml",
+      "programmeStatus": "Platform, not a retailer programme",
+      "networkOrChannel": "Partnership platform",
+      "sourceUrl": "https://impact.com/de/affiliate-de/affiliates-oder-influencer/",
+      "evidenceNote": "Original affiliate starting URL redirects to a German article. Its official affiliate signup link was observed. Fanatics UK and Kitbag also redirect to app.impact.com; account acceptance and merchant approval are separate.",
+      "deliveryNote": "Verify each destination and checkout costs before listing."
     }
   ]
 }

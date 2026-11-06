@@ -1,0 +1,81 @@
+[
+  {
+    "sourceUrl": "https://www.nike.com/gb/help/a/nike-affiliate-programme",
+    "finalUrl": "https://www.nike.com/gb/help/a/nike-affiliate-programme",
+    "checkedOn": "2026-11-06",
+    "httpStatus": 200,
+    "sha256": "6a68110c882078189b918a5da54466a56ff7c6ed20d85c3b731a98dd8cbf72ee",
+    "excerpts": [
+      "Affiliates can earn up to an 11% commission on qualified sales.",
+      "30-day cookie period"
+    ],
+    "method": "HTTP response; Nike terms extracted from embedded __NEXT_DATA__ article JSON; Fanatics/Kitbag CTA from image alt text and anchor."
+  },
+  {
+    "sourceUrl": "https://www.fanatics.co.uk/affiliates/x-8840",
+    "finalUrl": "https://www.fanatics.co.uk/en/affiliates/x-8840",
+    "checkedOn": "2026-11-06",
+    "httpStatus": 200,
+    "sha256": "836fdf3ba3926ad8b59cffb4d2e788cb03f69aba31f63e37a39b6bb0758ba413",
+    "excerpts": [
+      "Affiliate Partner Program. Apply Now."
+    ],
+    "method": "HTTP response; Nike terms extracted from embedded __NEXT_DATA__ article JSON; Fanatics/Kitbag CTA from image alt text and anchor."
+  },
+  {
+    "sourceUrl": "https://www.kitbag.com/affiliates/x-8840",
+    "finalUrl": "https://www.kitbag.com/en/affiliates/x-8840",
+    "checkedOn": "2026-11-06",
+    "httpStatus": 200,
+    "sha256": "7b29dd1c82f57145087c6fe14f755bed978d1bd54646e53ea88ffe70ffcf62f5",
+    "excerpts": [
+      "Affiliate Partner Program. Apply Now."
+    ],
+    "method": "HTTP response; Nike terms extracted from embedded __NEXT_DATA__ article JSON; Fanatics/Kitbag CTA from image alt text and anchor."
+  },
+  {
+    "sourceUrl": "https://www.awin.com/gb/faqs",
+    "finalUrl": "https://www.awin.com/gb/faqs",
+    "checkedOn": "2026-11-06",
+    "httpStatus": 200,
+    "sha256": "17320f9bc7540269c314630d4890fb3c9949c9c0c80aebf8ffb1b9455854d0a9",
+    "excerpts": [
+      "Joining Awin as a publisher is free.",
+      "You don’t need to pay a deposit or any sign up fee."
+    ],
+    "method": "HTTP response; Nike terms extracted from embedded __NEXT_DATA__ article JSON; Fanatics/Kitbag CTA from image alt text and anchor."
+  },
+  {
+    "sourceUrl": "https://www.fanatics.co.uk/shipping-information/ch-7301",
+    "finalUrl": "https://www.fanatics.co.uk/en/shipping-information/ch-7301",
+    "checkedOn": "2026-11-06",
+    "httpStatus": 200,
+    "sha256": "9e29eef4ac4a21517727da50d87438fb871304905d0fb9f160c69d4913056e72",
+    "excerpts": [
+      "International Standard Delivery (Europe)"
+    ],
+    "method": "HTTP response; Nike terms extracted from embedded __NEXT_DATA__ article JSON; Fanatics/Kitbag CTA from image alt text and anchor."
+  },
+  {
+    "sourceUrl": "https://www.vintagefootballshirts.com/pages/returns-and-delivery",
+    "finalUrl": "https://www.vintagefootballshirts.com/pages/returns-and-delivery",
+    "checkedOn": "2026-11-06",
+    "httpStatus": 200,
+    "sha256": "5a4a378a39b16291e20ebec78b3045aab95c54f09fcd011d6aded10a70bdabd2",
+    "excerpts": [
+      "We accept returns within 30 days of purchase"
+    ],
+    "method": "HTTP response; Nike terms extracted from embedded __NEXT_DATA__ article JSON; Fanatics/Kitbag CTA from image alt text and anchor."
+  },
+  {
+    "sourceUrl": "https://www.subsidesports.com/uk/shipping-2021",
+    "finalUrl": "https://www.subsidesports.com/uk/shipping-2021",
+    "checkedOn": "2026-11-06",
+    "httpStatus": 200,
+    "sha256": "36003bfa7e8f0cd26af652a3348207458e216b65ddd0cfb88da440882365efb9",
+    "excerpts": [
+      "you will need to pay these locally on arrival."
+    ],
+    "method": "HTTP response; Nike terms extracted from embedded __NEXT_DATA__ article JSON; Fanatics/Kitbag CTA from image alt text and anchor."
+  }
+]
