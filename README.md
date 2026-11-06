@@ -83,6 +83,6 @@ That command does not publish to Firestore. A cloud JSON backup contains product
 3. Authorise Hosting deployment and verify real sign-in, draft isolation and cross-device publication.
 4. Replace design previews with genuine permitted seller listings before commercial launch; complete publisher/legal details as appropriate.
 
-Marketing and affiliate-programme research remain separate from this website work. Preparation materials are retained under `docs/affiliate-*`.
+Affiliate research and application preparation are retained under `docs/affiliate-*`. The owner workspace includes retailer candidate links and a preparation checklist. Current commercial terms and Israeli publisher eligibility remain unverified because research access is blocked; no candidate link is an approved affiliate link.
 
 The public footer has no sign-in link. Owner access starts directly at `/admin`. After Firebase authenticates the configured owner, a **Manage website** shortcut appears on that browser’s public pages; anonymous visitors and other accounts do not receive it. This is a visibility convenience, not a substitute for server-enforced rules. The login page URL itself can be opened by anyone, while catalogue management requires the configured owner account.
