@@ -6,7 +6,7 @@ An English-language product-discovery site for the UK and Europe, centred on shi
 
 The owner confirmed Firebase project **formandroar-ae8f9** and supplied its public Web configuration in `src/firebase-public-config.json`. The configuration is intended for browsers; it is not an admin credential. No password, Service Account or private key is stored. Analytics is not imported or enabled by the site.
 
-**Firebase account activation and deployment are still required.** See the step-by-step [Firebase setup guide in Hebrew](docs/firebase-setup.md). Authentication, real Firestore writes and cross-device publication have not yet been verified against the owner's project. Project settings alone do not deploy the security rules.
+**The owner has deployed Firebase Hosting and confirmed sign-in and a saved draft surviving refresh.** See the [Firebase setup guide in Hebrew](docs/firebase-setup.md). Those account actions are owner-reported; cross-device publication and live draft isolation have not been independently tested here. New repository changes still require deployment, including rules whenever they change.
 
 ## Run and build
 
@@ -43,7 +43,7 @@ npx firebase login
 npm run firebase:deploy
 ```
 
-This deploys Hosting and Firestore rules, not Functions. Confirm the correct project and site before approving deployment. No authenticated deployment was performed from this chat. The intended Firebase Hosting origin in `site-publishing.json` is not a claim that the website is live.
+This deploys Hosting and Firestore rules, not Functions. Confirm the correct project and site before approving deployment. No authenticated deployment was performed from this environment. The owner deployed Hosting, and the public homepage returned HTTP 200 on 6 November 2026. Repository updates still require a new owner-authorised deployment.
 
 The built site includes a real 404. Canonical URLs, social metadata and a sitemap use the intended hosting origin, overrideable with `SITE_URL`. Indexing is deliberately off while the catalogue is a prototype; enable `SITE_INDEXABLE=true` only when ready. All four Web configuration fields can be overridden using the `VITE_FIREBASE_*` variables listed in `.env.example`. Never put a private credential in a VITE variable.
 
@@ -60,7 +60,7 @@ npm audit --omit=dev
 
 `npm test` builds isolated `dist-test` output with Firebase disabled and runs browser tests without connecting to the real project or sending emails. Tests use Chromium at `/usr/bin/chromium` (`CHROMIUM_PATH` can override it). Checks include catalogue filtering, local data management, mobile/tablet layouts, actual touch scrolling, 3D tilt and motion preferences, real 404s, offline export, owner setup state and automated accessibility scanning.
 
-The Firestore test suite uses the official emulator with demo project `demo-form-and-roar`. It covers public/draft isolation, owner writes, denied privilege escalation, invalid publication and stale revisions. Its first run was blocked because the environment could not download the official emulator JAR. Those tests are prepared but **not yet executed**; they must not be described as passing. The separate official Hosting emulator check passed for clean paths, HTTP 404 and owner-area headers. Live account sign-in and cloud publication remain unverified.
+The Firestore test suite uses the official emulator with demo project `demo-form-and-roar`. It covers public/draft isolation, owner writes, denied privilege escalation, invalid publication and stale revisions. The earlier emulator-download block was resolved on 7 November 2026: **all seven Firestore rules tests passed** against the official local emulator. Emulator/config caches used writable temporary directories in this cloud environment. The separate official Hosting emulator check also passed previously for clean paths, HTTP 404 and owner-area headers. These local tests do not establish which rules are deployed on the live project. The owner reported successful live sign-in and draft saving; cross-device/publication behaviour remains independently unverified.
 
 The browser-production dependency audit passed after a targeted `@grpc/grpc-js` override to a patched 1.x release. The installed Firebase CLI's development-only dependency tree still reports moderate advisories; no forced major downgrade or signature/TLS bypass was used.
 
@@ -83,6 +83,6 @@ That command does not publish to Firestore. A cloud JSON backup contains product
 3. Authorise Hosting deployment and verify real sign-in, draft isolation and cross-device publication.
 4. Replace design previews with genuine permitted seller listings before commercial launch; complete publisher/legal details as appropriate.
 
-Affiliate research and application preparation are retained under `docs/affiliate-*`. The owner workspace includes retailer candidate links and a preparation checklist. Nike GB public terms and Fanatics UK/Kitbag official application routes were verified. Account/category rates and Israeli publisher eligibility remain unconfirmed; access to the platform subdomains is pending. No listed programme has approved this site. See `docs/affiliate-research.md` and `docs/affiliate-evidence.json`.
+Affiliate research and application preparation are retained under `docs/affiliate-*`. The owner workspace includes retailer candidate links and a preparation checklist. Public terms for adidas UK/IE, Arsenal Direct, Nike GB, JD regional programmes and other club/style candidates were verified. The recommended first route is Awin → adidas UK and Arsenal Direct. Fanatics/Kitbag signup and general contracts are accessible; their actual numeric campaign offers remain unconfirmed. Account/category rates and Israeli publisher approval still require confirmation. No listed programme has approved this site. See `docs/affiliate-research.md` and `docs/affiliate-evidence.json`.
 
 The public footer has no sign-in link. Owner access starts directly at `/admin`. After Firebase authenticates the configured owner, a **Manage website** shortcut appears on that browser’s public pages; anonymous visitors and other accounts do not receive it. This is a visibility convenience, not a substitute for server-enforced rules. The login page URL itself can be opened by anyone, while catalogue management requires the configured owner account.

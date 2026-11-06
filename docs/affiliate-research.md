@@ -1,71 +1,86 @@
-# Form & Roar — affiliate research, 6 November 2026
+# Form & Roar — affiliate decision and source comparison
 
-## Result and scope
+Updated **7 November 2026**, using the owner's Asia/Jerusalem date. Initial retailer checks were on 6 November; individual checked dates are retained in the data/CSV. This is a comparison of the reviewed candidates, not a claim to cover every affiliate programme worldwide.
 
-Research access has improved. Thirteen of the fourteen retailer/platform starting pages opened, plus the live Form & Roar homepage. TOFFS returned website HTTP 403. This is a partial evidence-based comparison, not a completed worldwide commission survey or a verified profitability ranking.
+## Decision: start with Awin, adidas UK and Arsenal Direct
 
-Verified official programme sources: Nike GB, Fanatics UK and Kitbag. Only Nike's inspected official source published a commission ceiling and attribution window. The current Awin FAQ also publishes signup and payment information. No programme has approved this website and Israeli publisher eligibility remains unconfirmed throughout.
+The first applications should be to **Awin**, then **adidas UK** and **Arsenal Direct** separately. adidas offers broad football-shirt/lifestyle relevance and explicitly lists shopping portals among desired publishers. Arsenal adds a focused, official club merchandise source with shirts, fanwear and gifts. Neither choice depends on publishing articles. Approval for this new Israeli publisher remains to be established.
 
-## Comparison of all candidates
+Evaluate **Nike GB** next through its official programme contact. The published up-to 11% and 30-day window are useful, but not a personalised offer; its source names established sites and acceptance is discretionary. A Nike advertiser profile was not found in the inspected Awin GB public-directory search; use Nike's official contact rather than a guessed campaign ID.
 
-| Candidate | Verified public commission | Attribution | Official route / evidence | Assessment |
-| --- | --- | --- | --- | --- |
-| Nike GB | Up to 11% on qualified sales; not an agreed base/category rate | 30-day cookie | [Official GB help article](https://www.nike.com/gb/help/a/nike-affiliate-programme); article directs applicants to global-nike@awin.com | Best documented public offer found; complementary current shirts/style. Established websites and shopping directories are listed, not a promise to accept a new site. |
-| Fanatics UK | Not verified | Not verified | [Official programme](https://www.fanatics.co.uk/en/affiliates/x-8840), [application route](https://www.fanatics.co.uk/apply-now) redirects to an app.impact.com brand campaign | First application candidate by product fit, conditional on UK campaign terms and Israeli eligibility. |
-| Kitbag | Not verified | Not verified | [Official programme](https://www.kitbag.com/en/affiliates/x-8840), [application route](https://www.kitbag.com/apply-now) redirects to an app.impact.com brand campaign | Shares Fanatics branding/platform. Compare region and actual campaign terms before treating it as an independent second partner. |
-| Classic Football Shirts | Not verified | Not verified | [Retailer](https://www.classicfootballshirts.co.uk/) opened; no programme link in inspected navigation. Three attempted programme paths were 404. | Strong retro candidate; availability of an affiliate programme remains unconfirmed. |
-| TOFFS | Not verified | Not verified | [Retailer](https://www.toffs.com/) and attempted affiliate page returned website HTTP 403 | Heritage fit; cannot recommend its commercial terms from present evidence. |
-| Vintage Football Shirts | Not verified | Not verified | [Retailer](https://www.vintagefootballshirts.com/), page sitemap and [delivery/returns](https://www.vintagefootballshirts.com/pages/returns-and-delivery) opened. A goaffpro script alone does not prove programme availability. | Promising retro alternative; needs an official programme/terms source. |
-| Subside Sports | Not verified | Not verified | [Retailer](https://www.subsidesports.com/uk/) and [shipping](https://www.subsidesports.com/uk/shipping-2021) opened; attempted affiliate path 404 | Specialist alternative; programme unconfirmed. |
-| Unisport | Not verified | Not verified | [Retailer](https://www.unisportstore.com/) and sitemaps opened. A teamsport partner page is not evidence of an affiliate programme. | Potential European alternative; programme unconfirmed. |
-| Pro:Direct Soccer | Not verified | Not verified | [Retailer](https://www.prodirectsport.com/soccer/) redirects to the current football page; two attempted affiliate paths were 404 | Football selection candidate; programme unconfirmed. |
-| adidas UK | Not verified | Not verified | [Retailer](https://www.adidas.co.uk/) opened; attempted affiliate/help paths returned 404 or the homepage | Brand fit; no application route or rate confirmed. |
-| JD Sports UK | Not verified | Not verified | [Retailer](https://www.jdsports.co.uk/) opened; attempted affiliate path 404 | Lifestyle alternative; programme unconfirmed. |
-| Sports Direct | Not verified | Not verified | [Retailer](https://www.sportsdirect.com/) opened; attempted affiliate path 404 | Broad alternative; programme unconfirmed. |
-| Awin | Advertiser-specific, not a network-wide commission | Advertiser-specific | [Current official FAQ](https://www.awin.com/gb/faqs), which links to [publisher signup](https://ui.awin.com/publisher-signup/en/awin/) | Network candidate; Nike's official article names an Awin email contact. Separate merchant acceptance required. |
-| impact.com | Programme-specific | Programme-specific | Fanatics UK / Kitbag official redirects and [official-site affiliate signup link](https://app.impact.com/signup/none/create-new-mediapartner-account-flow.ihtml) | Platform needed for the observed Fanatics/Kitbag application routes; opening an account is not retailer approval. |
+Do not start by opening accounts on every network. Awin provides several confirmed, relevant programme routes in one place. Fanatics/Kitbag remain supplementary candidates until the actual campaign rate, attribution and regional store scope are established. Their public application pages and contracts are accessible now, so this is a commercial-information gap, not an unresolved network-policy block.
 
-A programme not found on the inspected pages is **unconfirmed**, not absent. No search snippets or third-party directory rates were used as verified commercial terms. Google returned a JS access shell; Bing results were unrelated to the submitted queries and were discarded as evidence.
+## Verified programme comparison
 
-## Recommendation
+All rates below are published terms, subject to approval, category/customer rules and later changes. They are not the owner's agreed rates or an earnings forecast.
 
-Start application preparation for **Fanatics UK** because it matches shirts, supporter clothing, collectibles and gifts, and an official application path was found. Confirm the UK/European campaign, actual category commission and acceptance of an Israeli publisher before committing.
+| Programme | Published commission | Published attribution | Source / market caveat |
+| --- | --- | --- | --- |
+| **adidas UK** | **2%–15% range**; category/account rate not specified | **30 days** | [Profile 77022](https://ui.awin.com/merchant-profile/77022), [commission tab](https://ui.awin.com/merchant-profile/77022/commission-groups). Profile also states 30-day returns and 60-day validation. |
+| **Arsenal Direct** | **Up to 7% CPA** | **30 days** | [Profile 15460](https://ui.awin.com/merchant-profile/15460). Unauthorised voucher codes can cause sales to be declined; club-specific range. |
+| **Nike GB** | **Up to 11% on qualified sales** | **30 days** | [Official GB article](https://www.nike.com/gb/help/a/nike-affiliate-programme), directing applicants to global-nike@awin.com. No football-shirt-specific 11% guarantee. |
+| **adidas IE** | **2%–15% range** | **30 days** | [Profile 77012](https://ui.awin.com/merchant-profile/77012), [commission tab](https://ui.awin.com/merchant-profile/77012/commission-groups). Separate Irish programme, not automatic extension of UK approval. |
+| **JD Sports Ireland** | **6% full-price; 2% sale; 2% voucher orders** | **30 days** | [Profile 5945](https://ui.awin.com/merchant-profile/5945), [commission tab](https://ui.awin.com/merchant-profile/5945/commission-groups). Taxes/delivery and specified products excluded; app purchases excluded. |
+| **Manchester United UK/IE** | **3% content/influencers; 2% other publishers; 1% vouchers** | **30 days** | [Profile 104993](https://ui.awin.com/merchant-profile/104993). Do not assume this catalogue qualifies for 3%. Restrictions include PPC/branded search, retargeting, CSS, brokers and direct linking; clarify the planned website/social flow. |
+| **Players Couture UK** | **10% new customers; 5% returning** | **30 days** | [Profile 125396](https://ui.awin.com/merchant-profile/125396), [commission tab](https://ui.awin.com/merchant-profile/125396/commission-groups). Fan-inspired apparel. Retailer quality, rights, shipping and customer costs have not been independently checked; not an initial recommendation solely because of the rate. |
+| **West Ham United** | No numeric rate verified in fetched public views | **7 days** | [Profile 19650](https://ui.awin.com/merchant-profile/19650). Auction products excluded. |
+| **Rangers FC Store** | No numeric rate verified in fetched public views | **30 days** | [Profile 46287](https://ui.awin.com/merchant-profile/46287). Range includes club shirts and lifestyle clothing. |
+| **Fanatics / Fanatics (Global)** | Numeric rate not verified | Numeric window not verified | [Official UK application route](https://www.fanatics.co.uk/apply-now) leads to a Fanatics (Global) campaign on impact.com. See contract caveat below. |
+| **Kitbag** | Numeric rate not verified | Numeric window not verified | [Official application route](https://www.kitbag.com/apply-now) leads to a separately named Kitbag campaign on impact.com. See contract caveat below. |
 
-Evaluate **Nike GB** as the complementary brand: it has the clearest inspected public terms, including an automated product feed and links/banners after acceptance. Its up-to 11% rate is not a promise for football shirts, every order or this account. A 30-day window is not a guarantee of attribution when consent, last-click rules or exclusions intervene.
+The ceiling of 15% for adidas is not comparable to a guaranteed 6% on a specific eligible order without knowing category, discounts, validation and other terms. There are no measured conversion or approved-sale results for this site. A profitability winner cannot be established yet.
 
-Keep **Classic Football Shirts** as the next specialist investigation for retro. Do not claim it is an approved or even confirmed affiliate programme yet. Kitbag can be evaluated alongside Fanatics, avoiding duplicate or geographically inappropriate applications.
+For example only, on £100 of eligible commissionable value, 2% yields £2 while 7% yields £7 before reversals or fees. The customer's basket total may include tax/delivery that is not commissionable. For planning:
 
-Do not choose the highest headline percentage alone. No conversion, commission approval or sales data exists for this website, so the most profitable programme cannot yet be identified.
+`earnings per 100 outbound clicks ≈ 100 × conversion rate × commissionable order value × effective rate × approval rate`
 
-`estimated earnings per 100 outbound clicks = 100 × conversion rate × commissionable order value × effective commission rate × approval rate`
+Do not fill this formula with merchant marketing claims about conversion as if they were this website's measurements.
 
-Example only: 2% conversion × £80 commissionable value × 6% commission × 90% approved sales gives £8.64 per 100 clicks. These invented inputs illustrate the calculation; they are not merchant results.
+## Country programmes are separate
 
-## Publisher country and payouts
+The [official JD ROW profile](https://ui.awin.com/merchant-profile/22169) says the UK programme (PID 1431) is **invite-only**, directs publishers to ask Awin, and lists separate local programmes for several European countries. Its [ROW commission table](https://ui.awin.com/merchant-profile/22169/commission-groups) lists 5% full-price and 2% sale, but those are **not UK or Ireland rates**. The ROW programme excludes countries where JD has a local store. The UK public profile path returned 404 in this check; do not replace it with an unrestricted ROW application.
 
-The owner confirmed **Israel** as publisher residence/registration. Customers are in the UK and Europe. A retailer shipping to Israel does not establish that it accepts Israeli affiliates; likewise UK/European customers do not make this a UK-resident publisher.
+For initial offers, verify the UK product/store first. For Ireland add the appropriate Irish programme. Expand to further European markets only when the relevant store, tracking and delivery coverage are confirmed; a UK link is not evidence of Europe-wide delivery or tracking across country redirects.
 
-The [current Awin FAQ](https://www.awin.com/gb/faqs) says publisher joining is free, with no deposit or signup fee. It lists payment methods and a £20 minimum specifically for GB BACS publishers; that is **not** a verified Israeli threshold or payment method. Account approval, identity/tax verification, supported country, currency, fees and payment details remain to be confirmed. The older publisher-payment article is dated 2017; the current FAQ takes priority over old summaries.
+## Fanatics / Kitbag contract findings
 
-## Customer costs and regional limits
+Both official retailer routes were followed to impact.com with anonymous session cookies. The pages identify **Fanatics (Global)** and **Kitbag**, and include public contract-preview PDF links. No account was created and no agreement button was pressed.
 
-- [Fanatics shipping](https://www.fanatics.co.uk/en/shipping-information/ch-7301): describes UK standard delivery of 2–4 working days after dispatch and European standard delivery usually 3–8 working days. Dates, handling charges, customs and final total depend on checkout. This does not establish support for every European country or every product.
-- [Vintage Football Shirts delivery](https://www.vintagefootballshirts.com/pages/returns-and-delivery): lists UK tracked delivery £3.99, Europe tracked £9.99 and 30-day returns subject to condition. The page says EU VAT/duties are collected at checkout, including EU orders above €150. These are retailer statements checked today, not a guarantee that terms will not change.
-- [Subside shipping](https://www.subsidesports.com/uk/shipping-2021): lists Western/Eastern European regions; import duty/taxes may be payable locally and shipping is calculated in the basket. This cost difference can affect conversion even with a nominally higher commission.
-- Nike links must target the appropriate country store; a GB product link is not proof of Europe-wide delivery or tracking across country redirects.
+The two linked PDFs fetched in this session are byte-identical general participation agreements describing **Fanatics.com** as the merchant website. The agreement refers the revenue percentage and attribution time to the network's programme offer instead of specifying numeric values. Its payment basis deducts taxes, shipping/handling, returns and chargebacks, and attribution can be superseded by later tracked marketing channels.
 
-## Remaining research blocker
+Accordingly, the retailer route is verified, but neither a UK/European rate nor campaign/store scope can safely be inferred from the general PDF. Request the actual offer applicable to the desired store before accepting. The seven-day notice mentioned in the agreement is a schedule-change notice, not a verified seven-day cookie.
 
-Fanatics UK and Kitbag /apply-now were checked without following redirects and returned HTTP 302 to **app.impact.com** campaign pages. Following the links encountered a proxy CONNECT denial. Awin's public directory uses its Algolia-backed search; its merchant profiles and official signup/help routes use additional subdomains.
+## Publisher in Israel and payments
 
-An expanded configuration draft preserves all existing custom destinations and adds `app.impact.com`, `ui.awin.com`, `help.awin.com`, `success.awin.com`, `classicfootballshirtssupport.zendesk.com`, and `c1w1y0aamv-dsn.algolia.net`. It still requires environment settings review/save and Publish. The current enforced revision is 8 and does not include these additions. No bypass was attempted.
+The owner confirmed **Israel** as publisher residence/registration. UK/European customers do not make this a UK-resident publisher.
 
-After access is active, complete the account/merchant-specific terms for commission categories, exclusions, attribution model, returns/reversals, payout timing/methods for Israel, permitted website/social channels, deep links and image/feed rights. If a page requires an account, report that requirement and review terms inside the owner's official account; do not invent a public rate.
+Israel appears in the Fanatics/Kitbag impact.com signup country selectors, beyond just phone-code options. This establishes only that the form can represent Israel, not merchant acceptance, account approval or an available payout method. Awin's signup shell returned HTTP 200; no owner account or country/payout verification was completed.
 
-## Website preparation and evidence
+The [current Awin FAQ](https://www.awin.com/gb/faqs), rechecked on 7 November, says publisher registration is free with no signup fee or deposit. It describes a £20 minimum for **GB BACS publishers**; this is not a verified Israeli threshold. Confirm the owner's applicable payment method, currency, threshold, fees, tax details and identity requirements directly in the official signup/account. Network approval and merchant approval are separate.
 
-Owner research cards now include verified source/application links, the Nike published ceiling/window, and explicit unconfirmed fields. No retailer logo, product image or product listing has been copied. Public catalogue data and existing Firebase drafts remain untouched. Approval and the owner's tracking links are required before publishing commissioned offers.
+## Remaining retailer candidates
 
-[Comparison CSV](affiliate-comparison.csv) covers all 14 candidates. [Evidence records](affiliate-evidence.json) contain brief source excerpts, URLs, retrieval date and response hashes, not full copyrighted pages. The official Nike terms were extracted from the article JSON embedded in its HTTP response. Fanatics/Kitbag call-to-action text and destination links were verified in their page markup.
+These candidates were not promoted to confirmed programmes. Failure to find a public programme is not proof none exists:
 
-The live Form & Roar homepage returned HTTP 200 and contained no public Owner sign-in link in inspected markup. This is a read-only HTML check, not a signed-in management test. No account was created, application submitted, email sent or live Firebase deployment performed here.
+- **Classic Football Shirts:** homepage opened on 6 November; on 7 November the official support search for affiliate returned zero results, and the inspected Awin GB directory returned no matching programme. Three earlier guessed programme paths were 404. Keep it as a retro sourcing enquiry, not an approved programme.
+- **Vintage Football Shirts:** homepage, page sitemap and delivery/returns were inspected on 6 November. A goaffpro loader alone is not evidence of open signup or a commission rate.
+- **TOFFS:** homepage and attempted affiliate page returned website HTTP 403 in the initial check. No public commercial terms verified.
+- **Subside Sports, Unisport, Pro:Direct Soccer, Sports Direct:** retailer/selected information pages were inspected on 6 November; relevant terms remain unverified. The inspected Awin directory searches did not supply exact programme matches. Do not invent a network or rate.
+- **JD Sports UK:** confirmed as an invite-only route described by JD's ROW profile, not an open ROW campaign for UK offers.
+
+The full [comparison CSV](affiliate-comparison.csv) and `src/affiliate-research.json` contain **21 programme/candidate records**, including regional variants and the two platforms. Rows retain individual source-check dates. Other programmes may exist outside this shortlist or outside the GB public directory.
+
+## Customer cost findings retained from 6 November
+
+- [Fanatics shipping](https://www.fanatics.co.uk/en/shipping-information/ch-7301) describes UK standard delivery of 2–4 working days after dispatch and European standard usually 3–8. Checkout confirms actual dates, costs and customs treatment; not every destination/item was verified.
+- [Vintage Football Shirts delivery](https://www.vintagefootballshirts.com/pages/returns-and-delivery) lists UK tracked delivery £3.99, Europe tracked £9.99, 30-day condition-dependent returns, and EU tax/duty collection at checkout. Recheck before publishing prices or delivery claims.
+- [Subside shipping](https://www.subsidesports.com/uk/shipping-2021) lists European regions and warns that import taxes/duty may be due locally. Shipping is calculated in the basket.
+- Arsenal's profile advertises broad international delivery, but no checkout-level country or product verification was performed here. adidas/Nike country-specific delivery still needs review for the actual products selected after programme approval.
+
+## Website ready for application preparation
+
+The authenticated owner workspace now contains the comparison, verified source/application links, recommended starting order and a ready-to-edit English publisher description. Public pages retain contact, disclosure, privacy, delivery filters and clearly labelled illustrative concepts. Existing Firestore drafts were not read or overwritten. No public commercial offers or tracking IDs were invented.
+
+Remaining activation steps: deploy the prepared website update; complete the owner's real operator/account details and review the actual offer; obtain merchant approval, tracking links and image/feed rights; prepare a small set of real private product drafts; verify each listing before publication. Public operator/legal details and actual account eligibility cannot be fabricated, and acceptance of a pre-commercial site is not guaranteed.
+
+[Evidence records](affiliate-evidence.json) contain short excerpts, source URLs, retrieval dates and response hashes, not full copyrighted contracts/pages or anonymous form/session data. No email was sent, agreement accepted, application submitted or Firebase deployment performed here.

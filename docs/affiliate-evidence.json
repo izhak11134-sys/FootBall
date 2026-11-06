@@ -77,5 +77,189 @@
       "you will need to pay these locally on arrival."
     ],
     "method": "HTTP response; Nike terms extracted from embedded __NEXT_DATA__ article JSON; Fanatics/Kitbag CTA from image alt text and anchor."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/77022/commission-groups",
+    "finalUrl": "https://ui.awin.com/merchant-profile/77022/commission-groups",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "3328b2bd77f4efde6bb661073cad9020b8e0b23f797626256ceea31a3c778021",
+    "excerpts": [
+      "All publishers will receive commission between 2% -15%."
+    ],
+    "method": "Commission tab, not an individual agreed rate."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/77022",
+    "finalUrl": "https://ui.awin.com/merchant-profile/77022",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "db40ccc0831dfb4c46a75f46618f7e55790bc642ab30db32c489e3faf7c7a7c0",
+    "excerpts": [
+      "30-day cookie period"
+    ],
+    "method": "Profile also states 30-day returns and 60-day validation."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/77012/commission-groups",
+    "finalUrl": "https://ui.awin.com/merchant-profile/77012/commission-groups",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "0964e787f543a5056ec989695d7c696d19783de1b69afef5f5100fb8bb5f5dae",
+    "excerpts": [
+      "All publishers will receive commission between 2% -15%."
+    ],
+    "method": "Separate Ireland programme."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/15460",
+    "finalUrl": "https://ui.awin.com/merchant-profile/15460",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "b98a58b4c3ca09f08c6f79d20230c51ee42f0393e4ed17fa48d383be18d0a0aa",
+    "excerpts": [
+      "Up to 7% CPA on purchases"
+    ],
+    "method": "30-day attribution is also displayed in the profile."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/5945/commission-groups",
+    "finalUrl": "https://ui.awin.com/merchant-profile/5945/commission-groups",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "e2ca704039461e871fae6db8493aec53bb27d8cec7b57ad60c588732960d0ab4",
+    "excerpts": [
+      "JD Sports 6% 2% 2%"
+    ],
+    "method": "Columns: full-price, sale and voucher-code orders."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/22169",
+    "finalUrl": "https://ui.awin.com/merchant-profile/22169",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "3aacb5abec32924e6166939426391b2006cad574d98c7e89687171628bdb374e",
+    "excerpts": [
+      "JD Sports UK PID-1431 ( invite only- ask AWIN to apply)"
+    ],
+    "method": "ROW profile identifies separate country programmes."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/22169/commission-groups",
+    "finalUrl": "https://ui.awin.com/merchant-profile/22169/commission-groups",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "9a5d124ea767df31d4ab4bd33a92dc6be569b51abcea8b229c09f437088d008f",
+    "excerpts": [
+      "JD Sports 5% 2%"
+    ],
+    "method": "ROW only; must not be applied to UK/IE offers."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/104993",
+    "finalUrl": "https://ui.awin.com/merchant-profile/104993",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "85fc19e461f5c4b8b922e21e2cfa986b6e0e235e960cec323ca11da8aa1993fb",
+    "excerpts": [
+      "Content & Influencers 3% Others 2% Voucher publishers 1%"
+    ],
+    "method": "Publisher classification and channel restrictions apply."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/19650",
+    "finalUrl": "https://ui.awin.com/merchant-profile/19650",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "95675322b712e44ca65e77c0940f2a4b36684815d6ca84f16f6cbb9c35f2258c",
+    "excerpts": [
+      "7 Days"
+    ],
+    "method": "No public numeric rate verified in fetched views."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/46287",
+    "finalUrl": "https://ui.awin.com/merchant-profile/46287",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "91428d6dc2a3d6333daf1d58624530e2af7b0b026b5f5eecbeb64ea1f3ef42a2",
+    "excerpts": [
+      "30 Days"
+    ],
+    "method": "No public numeric rate verified in fetched views."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/merchant-profile/125396/commission-groups",
+    "finalUrl": "https://ui.awin.com/merchant-profile/125396/commission-groups",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "217b87a4658032e9ddb74eb55d5735f1419be3388cc9931c228be1b01a68ec93",
+    "excerpts": [
+      "10% commission on every sale to a new customer"
+    ],
+    "method": "Also publishes 5% for returning customers and 30-day attribution in its profile."
+  },
+  {
+    "sourceUrl": "https://ui.awin.com/publisher-signup/en/awin/",
+    "finalUrl": "https://ui.awin.com/publisher-signup/en/awin/",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "cde34d8db209e347c177be11ff74e29ce1e1fe1e163e8e11b8fefb6b8cdb6d73",
+    "excerpts": [
+      "Loading..."
+    ],
+    "method": "HTTP 200 signup shell only; do not infer acceptance of an Israeli applicant."
+  },
+  {
+    "sourceUrl": "https://app.impact.com/display-terms-pdf/campaign/Terms.pdf?id=___9XpvYq1Sf09kG8u2dwLKhPPjPc-R4G3T",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "0a34d6ef455b90658b38b259d64bf88a9842aa7fa14faeb538164e73dca3d108",
+    "excerpts": [
+      "schedule set forth in the Affiliate Program overview/description materials posted on the Partner Network."
+    ],
+    "method": "Linked contract PDF read with pdftotext. Both linked PDFs are byte-identical general Fanatics.com agreements. No numeric campaign rate/window verified."
+  },
+  {
+    "sourceUrl": "https://www.fanatics.co.uk/apply-now",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "7b76cba258cf4662327fe7b6cfbc494ada6fc3ffa02bf686ecf54e993835c755",
+    "excerpts": [],
+    "method": "Official redirects followed with anonymous cookies. Campaign identity and Israel in signup country lists inspected from embedded JSON only; no agreement accepted or account created."
+  },
+  {
+    "sourceUrl": "https://app.impact.com/display-terms-pdf/campaign/Terms.pdf?id=___9XpvYq1Sf0-BHmwgf1a9MFnYLaF4Rltr",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "0a34d6ef455b90658b38b259d64bf88a9842aa7fa14faeb538164e73dca3d108",
+    "excerpts": [],
+    "method": "Linked contract PDF read with pdftotext. Both linked PDFs are byte-identical general Fanatics.com agreements. No numeric campaign rate/window verified."
+  },
+  {
+    "sourceUrl": "https://www.kitbag.com/apply-now",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "180e7c669e13e508d1968b2c8649bf27616df28ef44e2ae45def857a7a3fbca7",
+    "excerpts": [],
+    "method": "Official redirects followed with anonymous cookies. Campaign identity and Israel in signup country lists inspected from embedded JSON only; no agreement accepted or account created."
+  },
+  {
+    "sourceUrl": "https://www.nike.com/gb/help/a/nike-affiliate-programme",
+    "finalUrl": "https://www.nike.com/gb/help/a/nike-affiliate-programme",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "34b67598c0ff269fcac2f6b691c29f1e5f81a5c396b1270d43b8ee596cc7bbf0",
+    "excerpts": [],
+    "method": "Previously cited official source rechecked; no duplicate excerpt stored."
+  },
+  {
+    "sourceUrl": "https://www.awin.com/gb/faqs",
+    "finalUrl": "https://www.awin.com/gb/faqs",
+    "checkedOn": "2026-11-07",
+    "httpStatus": 200,
+    "sha256": "083fd95513e7a40d15fc5d74d07a38cc990f34a9739f23df8fe6b4bea1bfbd46",
+    "excerpts": [],
+    "method": "Previously cited official source rechecked; no duplicate excerpt stored."
   }
 ]
