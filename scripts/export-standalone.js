@@ -18,6 +18,7 @@ const favicon = `data:image/svg+xml;base64,${(await readFile(resolve(root, 'publ
 function inlineMarkup(path) {
   let html = pageMarkup(path);
   for (const [url, data] of assets) html = html.replaceAll(`src="${url}"`, `src="${data}"`);
+  html=html.replace(/<a class="owner-signin"[^>]*>Owner sign-in<\/a>/g,'<span>Owner management is available on the hosted site.</span>');
   return html.replace(/href="(\/[^"]*)"/g, (_, path) => `href="#${path}"`);
 }
 const pages = Object.fromEntries(Object.entries(routes).map(([path, meta]) => [path, { ...meta, html: inlineMarkup(path) }]));

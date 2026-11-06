@@ -8,3 +8,10 @@ playwright-report/
 /journal/*.html
 
 !/manage.html
+
+!/admin.html
+!.env.example
+.firebase/
+*-debug.log
+
+dist-test/

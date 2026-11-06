@@ -13,7 +13,7 @@ test('every catalogue and information page renders, assets load and internal lin
     for(const image of new Set(images))expect((await request.get(image)).status()).toBe(200);
     for(const href of await page.locator('a[href^="/"]').evaluateAll(a=>a.map(a=>a.getAttribute('href'))))links.add(href);
   }
-  for(const link of links)expect(Object.hasOwn(routes,link),`Known link ${link}`).toBe(true);
+  for(const link of links)expect((Object.hasOwn(routes,link)||link==='/admin.html'),`Known link ${link}`).toBe(true);
   expect(errors).toEqual([]);
 });
 
